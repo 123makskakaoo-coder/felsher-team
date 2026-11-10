@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Felsher Team — Counter-Strike 2</title>
+<meta name="description" content="Felsher — команда по Counter-Strike 2. Состав, направления и ссылки команды.">
+<meta name="theme-color" content="#0A0B0D">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Felsher Team — Counter-Strike 2">
+<meta property="og:description" content="Визитка команды Felsher по Counter-Strike 2.">
+<meta property="og:image" content="assets/felsher-logo.jpg">
+<link rel="icon" href="assets/felsher-logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+<header class="topbar">
+  <a class="brand" href="#top">
+    <img class="brand__mark" src="assets/felsher-logo.jpg" alt="Логотип Felsher">
+    <span class="brand__name">Felsher</span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Разделы"></nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow"><span class="dot"></span> Counter-Strike 2</p>
+      <h1 class="hero__title">FELSHER <span class="hero__title-2">TEAM</span></h1>
+      <p class="hero__lead">Визитка команды: здесь появляется состав, направления и ссылки на наши площадки.</p>
+      <div class="hero__actions" id="hero-actions"></div>
+    </div>
+    <img class="hero__emblem" src="assets/felsher-logo.jpg" alt="" aria-hidden="true">
+  </section>
+
+  <div class="ticker" aria-hidden="true"><div class="ticker__track" id="ticker"></div></div>
+
+  <section class="section" id="about">
+    <h2 class="section__title">О команде</h2>
+    <p class="section__text">Felsher — команда по Counter-Strike 2. Мы играем вместе и собираем на этой странице всё, что связано с командой: состав, расписание и площадки, где нас можно найти.</p>
+    <ul class="facts" id="facts"></ul>
+  </section>
+
+  <section class="section" id="roster">
+    <h2 class="section__title">Состав</h2>
+    <div class="roster" id="roster-grid"></div>
+    <p class="empty" id="roster-empty">Состав ещё не опубликован — как только ники будут согласованы, они появятся здесь.</p>
+  </section>
+
+  <section class="section" id="contacts" hidden>
+    <h2 class="section__title">Контакты</h2>
+    <div class="links" id="links"></div>
+  </section>
+
+  <section class="section section--narrow" id="join" hidden>
+    <h2 class="section__title">Набор в команду</h2>
+    <p class="section__text" id="join-text"></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Felsher Team</span>
+  <a class="footer__link" href="https://github.com/123makskakaoo-coder/felsher-team" target="_blank" rel="noopener">Исходники на GitHub</a>
+</footer>
+
+<script src="team-data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
